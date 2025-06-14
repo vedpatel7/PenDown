@@ -17,7 +17,7 @@ To install the project on your computer, follow these steps:
 2. Navigate to the project directory.
 
    ```bash
-   cd conduit-realworld-example-app
+   cd PenDown
    ```
 
 3. Install project dependencies by running the command:
@@ -37,9 +37,9 @@ To install the project on your computer, follow these steps:
    ```bash
    npm run sqlz -- db:create
    ```
-
-   > :information_source: The command `npm run sqlz` is an alias for `npx -w backend sequelize-cli`.  
-   > Execute `npm run sqlz -- --help` to see more of `sequelize-cli` commands availables.
+   ```bash
+   npm run sqlz -- db:migrate
+   ```
 
 ### Usage
 
